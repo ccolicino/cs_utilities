@@ -1,5 +1,5 @@
---temp-output:/home/ccolicino/Projects/cs_utilities/src/core/obj/Debug/netcoreapp1.0/
---out:/home/ccolicino/Projects/cs_utilities/src/core/bin/Debug/netcoreapp1.0/core.dll
+--temp-output:/home/ccolicino/Projects/cs_utilities/src/ColiSoft.Net/obj/Debug/netcoreapp1.0/
+--out:/home/ccolicino/Projects/cs_utilities/src/ColiSoft.Net/bin/Debug/netcoreapp1.0/ColiSoft.Net.dll
 --define:DEBUG
 --define:TRACE
 --define:NETCOREAPP1_0
@@ -8,10 +8,11 @@
 --suppress-warning:CS1705
 --optimize:False
 --debug-type:portable
---output-name:core
---file-version:1.0.0.0
---version:1.0.0.0
---informational-version:1.0.0
+--output-name:ColiSoft.Net
+--description:Common network library
+--file-version:0.0.1.0
+--version:0.0.1.0
+--informational-version:0.0.1
 --target-framework:.NETCoreApp,Version=v1.0
 --reference:/home/ccolicino/.nuget/packages/Microsoft.CSharp/4.0.1/ref/netstandard1.0/Microsoft.CSharp.dll
 --reference:/home/ccolicino/.nuget/packages/Microsoft.VisualBasic/10.0.1/ref/netstandard1.1/Microsoft.VisualBasic.dll
@@ -86,4 +87,5 @@
 --reference:/home/ccolicino/.nuget/packages/System.Threading.Timer/4.0.1/ref/netstandard1.2/System.Threading.Timer.dll
 --reference:/home/ccolicino/.nuget/packages/System.Xml.ReaderWriter/4.0.11/ref/netstandard1.3/System.Xml.ReaderWriter.dll
 --reference:/home/ccolicino/.nuget/packages/System.Xml.XDocument/4.0.11/ref/netstandard1.3/System.Xml.XDocument.dll
-/home/ccolicino/Projects/cs_utilities/src/core/TaskExtension.cs
+--reference:/home/ccolicino/Projects/cs_utilities/src/ColiSoft.Core/bin/Debug/netcoreapp1.0/ColiSoft.Core.dll
+/home/ccolicino/Projects/cs_utilities/src/ColiSoft.Net/TcpClient.cs

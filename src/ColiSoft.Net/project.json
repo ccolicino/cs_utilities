@@ -1,9 +1,13 @@
 {
-  "version": "1.0.0-*",
+  "name": "ColiSoft.Net",
+  "version": "0.0.1",
+  "description": "Common network library",
   "buildOptions": {
-    "debugType": "portable",
+    "debugType": "portable"
   },
-  "dependencies": {},
+  "dependencies": {
+    "ColiSoft.Core": "0.0.1"
+  },
   "frameworks": {
     "netcoreapp1.0": {
       "dependencies": {

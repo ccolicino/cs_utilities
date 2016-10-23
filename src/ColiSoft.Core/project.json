@@ -1,0 +1,19 @@
+{
+  "name": "ColiSoft.Core",
+  "version": "0.0.1",
+  "buildOptions": {
+    "debugType": "portable",
+  },
+  "dependencies": {},
+  "frameworks": {
+    "netcoreapp1.0": {
+      "dependencies": {
+        "Microsoft.NETCore.App": {
+          "type": "platform",
+          "version": "1.0.1"
+        }
+      },
+      "imports": "dnxcore50"
+    }
+  }
+}
