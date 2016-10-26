@@ -12,7 +12,15 @@ namespace ColiSoft.Net
         }
         public async Task<ITcpClient> AcceptTcpClientAsync(CancellationToken ct = default(CancellationToken), int timeout = 0)
         {
-            return new TcpClient(await _TcpListener.AcceptTcpClientAsync().WithCancellation(ct));           
+            return new TcpClient(await _TcpListener.AcceptTcpClientAsync().WithCancellation(ct).WithTimeout(timeout));
         }
+        public void Start()
+        {
+            _TcpListener.Start();
+        }  
+        public void Stop()
+        {
+            _TcpListener.Stop();
+        } 
     }
 }
