@@ -1,6 +1,7 @@
 {
     "projects": [
         "ColiSoft.Core",
-        "ColiSoft.Net"
+        "ColiSoft.Net",
+        "ColiSoft.Net.Mqtt"
     ]
 }
